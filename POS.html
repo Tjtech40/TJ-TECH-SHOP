@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TjTechPOS</title>
+    <link rel="stylesheet" href="TjTech.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO TJ TECH POINT OF SALE</h1>
+    </header>
+ <form action="csv.php"  method="POST">
+    <label for="item">ENTER ITEM</label>
+<input type="text" name="item" id="item" met>
+
+<label for="quantity">QUANTITY</label>
+<input type="number" name="quantity" id="quantity">
+
+<h1>PAYMENT</h1>
+<label for="amount">AMOUNT(KSHs)</label>
+<input type="number" name="amount" id="amount"><br>
+<label for="change">CHANGE</label>
+
+<button type="submit" id="demo">PROCESS</button>
+<button type="reset">RESET</button>
+ </form>  
+</body>
+</html>
